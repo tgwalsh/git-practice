@@ -4,7 +4,7 @@
 
 ## Project Objectives: :white_check_mark:
 
-- create a main page that features different projects that I've built.
+- Create a main page that features different projects that I've built.
 - Build another page/section that contains contact information.
 - Add additional pages for each project, detailing the technology used.
 
