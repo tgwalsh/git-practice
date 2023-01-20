@@ -13,3 +13,9 @@
 ## My idea :thought_balloon:
 
 I decided to give it a mid-century illustration style for the look and feel. I also utilized the Bulma CSS framework to enhance the layout.
+
+---
+
+## View the site :computer:
+
+- [Personal Portfolio Website](https://tgwalsh.github.io/git-practice/personal_portfilio_website/)
