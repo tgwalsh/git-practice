@@ -1,0 +1,226 @@
+body {
+    margin: 0 auto;
+    color: #403C3C !important;
+    font-family: report-school, sans-serif !important;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    font-family: ligurino-condensed, sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.25;
+    color: #403C3C !important;
+}
+
+.title {
+    color: #403C3C !important;
+    font-family: ligurino-condensed, sans-serif !important;
+}
+
+.notification {
+    background-color: #F25624 !important;
+    border-radius: 0px !important;
+    padding: 1em 0 !important;
+}
+
+#announcementMessage {
+    text-align: center;
+    color: #F5ECDD;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #b93e15;
+    font-weight: 500;
+}
+.navbar {
+    max-width: 960px;
+    margin: 0 auto 1% auto;
+}
+.navbar-item img {
+    max-height: 3.25rem !important;
+}
+
+.navbar-end a {
+    margin-right: 0;
+    margin-left: 35px;
+    padding: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-family: ligurino-condensed, sans-serif;
+    color: #F28F1A;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-end a:hover {
+    color: #6e6e6e !important;
+}
+
+.navbar-end a:active {
+    color: #403C3C !important;
+}
+
+.hero {
+    background-image: url(./images/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-message-background {
+    background-color: #F5ECDD;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 3%;
+    text-align: center;
+}
+
+.hero-message-background .title {
+    font-size: 5em;
+    color: #403C3C !important;
+    font-family: ligurino-condensed, sans-serif !important;
+}
+
+.hero-message-background .subtitle {
+    font-size: 2em;
+    color: #403C3C !important;
+    font-family: ligurino-condensed, sans-serif !important;
+}
+#about, #portfolio, .footer {
+    margin-top: 100px;
+}
+
+.aboutColumn {
+    padding: 10%;
+}
+
+.column h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.weightedTitle {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.box {
+    border-radius: 0% !important;
+    box-shadow: none !important;
+    padding: 4rem !important;
+    color: #403C3C !important;
+}
+
+article.tile.is-child.box.even {
+    background-color: #F5ECDD !important;
+}
+
+article.tile.is-child.box.odd {
+    background-color: #F5ECDD !important;
+}
+
+.boxEyebrow {
+    font-family: report-school, sans-serif;
+    font-size: 20px;
+}
+
+.boxHeader {
+    font-family: ligurino-condensed, sans-serif;
+    font-size: 32px;
+    line-height: 1.15em;
+}
+
+.boxCopy {
+    font-size: 18px;
+    line-height: 1em;
+
+}
+
+.boxCopy strong {
+    color: #403C3C !important;
+}
+
+.button {
+    background-color: #F25624 !important;
+    border-width: 0px !important;
+    margin-top: 1%;
+    font-family: ligurino-condensed, sans-serif;
+    font-size: 1.5em;
+    color: #F5ECDD !important;
+}
+
+.button:hover {
+    background-color: #F28F1A !important;
+    color: #403C3C !important;
+}
+
+.button a {
+    color: #F5ECDD !important;
+}
+
+.button a:hover {
+    color: #403C3C !important;
+}
+
+.footer {
+    background-color: #403C3C !important;
+    color: #F5ECDD;
+    padding: 6rem 1.5rem 6rem !important;
+}
+
+.footer img {
+    margin-bottom: 1%;
+}
+
+#footerIcons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 10%;
+    margin: 0 auto;
+}
+
+#footerIcons a {
+    color: #F5ECDD;
+}
+
+.footer i {
+
+    font-size: 2em;
+}
+
+#noun, #verb, #color {
+    font-weight: 700;
+}
+
+#colorBlock {
+    border-radius: 5px !important;
+}
+@media only screen and (max-width: 920px) {
+    #announcementMessage {
+      font-size: 18px;
+    }
+    nav {
+        margin-bottom: 5%;
+    }
+
+    .navbar-burger:hover {
+        background-color: #F28F1A !important;
+    }
+
+    .column {
+        padding: 0 1.5rem !important;
+    }
+
+    .column img {
+        display: none;
+    }
+
+    #footerIcons {
+        max-width: 50%;
+    }
+  }

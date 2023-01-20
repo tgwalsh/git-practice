@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Travis Walsh | Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dhv7hrp.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tji8whr.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="./scripts/randomDrawingPrompt.js"></script>
+    <script src="https://kit.fontawesome.com/cbbbc1a945.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="notification">
+            <div id="announcementMessage">
+                Welcome to my portfolio! Thanks for being here.
+            </div>
+        </div>
+        <nav style="display: none;">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="./index.html">
+                        <img src="./images/tw_logo.png">
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+
+                    </div>
+
+                    <div class="navbar-end">
+                        <a href="#about" class="navbar-item">
+                            About
+                        </a>
+
+                        <a href="#portfolio" class="navbar-item">
+                            Projects
+                        </a>
+
+                        <a href="#footer" class="navbar-item">
+                            Contact
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <div class="container is-10">
+            <div class="card">
+                <div class="card-content">
+                    <div class="title is-1 has-text-centered">Random Drawing Prompt</div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card-image">
+                            <figure class="image is-4by3" id="nounImageBlock">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-image">
+                            <figure class="image is-4by3" id="verbImageBlock">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-image">
+                            <figure class="image is-4by3" id="colorBlock">
+
+                        </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <div>
+                        <p class="is-3 has-text-centered">Draw a <span id="noun"></span> that is <span
+                                id="verb"></span>. Try to incorporate <span id="color"></span> as the main color of your
+                            design.</p><br>
+                        <p class="has-text-centered"><button class="button is-large" onclick="drawingPrompt()">Get New
+                                Prompt</button>&nbsp;<button class="button is-large"><a href="./index.html">Return
+                                    Home</a></button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <footer class="footer" id="footer">
+        <div class="content has-text-centered">
+            <img src="./images/tw_logo_footer.png" alt="Travis Walsh Portfolio Logo">
+            <div id="footerIcons">
+                <a href="https://www.linkedin.com/in/travisgwalsh/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/blusprints/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/tgwalsh/git_practice" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
