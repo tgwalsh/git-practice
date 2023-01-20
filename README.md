@@ -12,5 +12,9 @@ Adobe Creative Cloud Suite, Scene7, Adobe Target, Adobe Analytics, MailChimp, Co
 Salesforce, MS Project, Trello, JIRA, Confluence, Workfront, Bootstrap, Bulma, HTML, CSS, JavaScript,
 WordPress, Joomla, Adobe Experience Manager (AEM) 6.4, Drupal, Concrete 5, Expression Engine,
 Contentstack, Wix, Weebly, Webflow
+
 # Codecademy-Assignments
-# git-practice
+
+## • [Mixed Messages](./mixed_messages/)
+
+## • [Personal Portfolio Website](./personal_portfilio_website/)
