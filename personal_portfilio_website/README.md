@@ -1,20 +1,15 @@
-# Codeacademy Projects
 
-I am currently expanding my skillset and have enrolled in the Full-Stack Engineer career path through Codeacademy. This is my portfolio based on the projects assigned throughout the course.
+# Personal Portfolio Website -  Portfolio Assignment 
 
-## 🚀 About Me
+:writing_hand: **Assignment:** Build a personal portfolio site, a static website where you can share the projects that you build in this Path. 
 
-I am Technologically Savvy, Solutions-Oriented, Highly Detailed Site Operations Specialist with 15 years of experience in enterprise level web publishing. I manage day-to-day tactical execution of website communication plans, content management initiatives, and quality assurance. Participate in project management of website updates, enhancements, and functionality implementations. Create, edit, and / or modify templates for web development or CMS framework by utilizing HTML, CSS and Javascript.
+:white_check_mark: ## Project Objectives:
+- create a main page that features different projects that I've built.
+- Build another page/section that contains contact information. 
+- Add additional pages for each project, detailing the technology used.
 
-## 🛠 Skills
 
-Adobe Creative Cloud Suite, Scene7, Adobe Target, Adobe Analytics, MailChimp, Constant Contact,
-Salesforce, MS Project, Trello, JIRA, Confluence, Workfront, Bootstrap, Bulma, HTML, CSS, JavaScript,
-WordPress, Joomla, Adobe Experience Manager (AEM) 6.4, Drupal, Concrete 5, Expression Engine,
-Contentstack, Wix, Weebly, Webflow
+---
+## My idea :thought_balloon:
 
-# Codecademy-Assignments
-
-## • [Mixed Messages](./mixed_messages/)
-
-## • [Personal Portfolio Website](./personal_portfilio_website/)
+I decided to give it a mid-century illustration style for the look and feel. I also utilized the Bulma CSS framework to enhance the layout. 
